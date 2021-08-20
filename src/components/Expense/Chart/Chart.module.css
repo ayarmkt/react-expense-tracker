@@ -1,0 +1,14 @@
+@import '../../../basicSettings.css';
+
+.chart-container {
+  background-color: white;
+  border: 1px solid var(--gray);
+  grid-column: 1;
+}
+
+.chart-container h2 {
+  font-size: var(--sub-title-size);
+  color: black;
+
+  /* background-color: crimson; */
+}

@@ -1,0 +1,13 @@
+:root {
+  /* COLORS */
+  --pink: #ff6364;
+  --lightblue: #27cddb;
+  --navy: #143980;
+  --gray: #a1a7b5;
+  --white: #eff1f6;
+
+  /* FONT SIZE */
+  --main-title-size: 30px;
+  --sub-title-size: 20px;
+  --text-size: 15px;
+}

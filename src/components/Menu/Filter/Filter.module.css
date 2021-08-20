@@ -1,0 +1,56 @@
+@import '../../../basicSettings.css';
+
+.filter {
+  background-color: var(--gray);
+  /* margin-bottom: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.filter h2 {
+  font-size: var(--sub-title-size);
+  color: black;
+  position: absolute;
+  left: 5%;
+
+  /* order: 1; */
+
+  /* justify-self: flex-start; */
+}
+
+.add-expense__control {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  /* justify-self: center; */
+  /* order: 2; */
+}
+
+.add-expense__control label {
+  /* background-color: var(--gray); */
+  width: auto;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+
+  font-size: var(--text-size);
+  height: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+
+.add-expense__control input,
+.add-expense__control select {
+  border: none;
+  width: 300px;
+  font-size: var(--text-size);
+  height: 25px;
+}
+
+.add-expense__control input,
+.add-expense__control select,
+.add-expense__control option {
+  border: none;
+  /* border-radius: 0 10px 10px 0; */
+}

@@ -1,0 +1,95 @@
+@import '../../../basicSettings.css';
+
+/* MENU FORM */
+.add-expense__form {
+  background-color: var(--pink);
+  margin: 15px 0;
+}
+
+.add-expense__form form {
+  padding: 10px 20px;
+  height: 120px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  /* align-content: center; */
+}
+
+/* ITEMS DESCRIPTIONS */
+.add-expense__controls {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.add-expense__control {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+
+.add-expense__control label,
+.add-expense__control input,
+.add-expense__control select {
+  font-size: var(--text-size);
+  height: 35px;
+}
+
+.add-expense__control label {
+  background-color: var(--gray);
+  width: 100px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.add-expense__control input,
+.add-expense__control select {
+  border: none;
+  width: 300px;
+}
+
+.add-expense__control input,
+.add-expense__control select,
+.add-expense__control option {
+  border: none;
+  border-radius: 0 10px 10px 0;
+}
+
+/* BUTTONS */
+.add-expense__actions {
+  grid-column: 2;
+  grid-row: 2;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* grid-template-rows: repeat(2, 1fr); */
+  /* align-content: center; */
+
+  /*grid-template-rows: repeat(2, 1fr); */
+  /* justify-self: flex-end; */
+  /* border: 1px solid green; */
+  height: 35px;
+}
+
+.buttons button {
+  margin: 5px;
+  line-height: 35px;
+  width: 120px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: var(--text-size);
+
+  background-color: var(--gray);
+  border: none;
+}
+
+.buttons button:hover {
+  background-color: white;
+  border: 2px solid var(--gray);
+}

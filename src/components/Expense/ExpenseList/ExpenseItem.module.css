@@ -1,0 +1,13 @@
+@import '../../../basicSettings.css';
+
+.item-list {
+  list-style: none;
+  height: 35px;
+  font-size: var(--text-size);
+  border-bottom: 1px solid var(--gray);
+  /* background-color: aqua; */
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 2fr 1fr;
+  align-content: center;
+}

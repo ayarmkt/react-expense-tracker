@@ -1,0 +1,11 @@
+@import '../../basicSettings.css';
+
+.expenses-summary {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  /* background-color: cornflowerblue; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-gap: 10px; */
+  /* max-height: 600px; */
+}
